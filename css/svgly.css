@@ -1,0 +1,192 @@
+#cathlitgadgetd{display: none;}
+
+#cathlits svg{
+font-family: sans-serif,serif;
+}
+
+svg #copyright{
+font-size: xx-small;
+text-align: right;
+display: none;
+}
+svg #text_info{
+stroke:black;
+fill:black;
+}
+svg #rect_info{
+fill:none;
+stroke:none;
+}
+
+
+/*day path related*/
+svg .d-adv{
+fill: violet;
+}
+svg .d-nav{
+fill: #f0f0f0;
+}
+svg .d-ord1{
+fill: green;
+}
+svg .d-ord2{
+fill: green;
+}
+svg .d-pas{
+fill: #f0f0f0;
+}
+svg .d-cua{
+fill: violet;
+}
+
+svg .d-d:hover{
+fill-opacity:1;
+}
+svg .d-d{
+fill-opacity:0.3;
+}
+
+svg .d-m1-2013{
+
+}
+
+svg #dci{
+fill:white;
+}
+svg #today{
+fill: yellow;
+fill-opacity:1;
+}
+svg #palmsun,svg #goodfri,svg #penteco{
+fill: red;
+fill-opacity:1;
+}
+
+
+/*week path related*/
+svg .w-w:hover{
+
+}
+svg .w-w{
+stroke:black;
+fill:#efefef;
+}
+
+/*week text*/
+svg .wte:hover{
+font-weight: bold;
+font-size: large;
+cursor:pointer;
+}
+svg .wte{
+text-anchor:middle;
+font-size: x-small;
+}
+
+svg #wci{
+fill:none;
+}
+
+/*cycle path related*/
+/*cycle text*/
+svg .ctp{
+}
+svg .cte:hover{
+font-weight: bold;
+
+cursor:pointer;
+}
+svg .cte{
+text-anchor:middle;
+font-size: small;
+font-weight: bold;
+text-shadow: 0px 1px 0 white;
+}
+
+svg .c-adv{
+fill:#800078;
+}
+svg .c-nav{
+fill:#f0f0f0;
+}
+svg .c-cua{
+fill:#800078;
+}
+svg .c-pas{
+fill:#f0f0f0;
+}
+svg .c-ord1,svg .c-ord2{
+fill:green;
+}
+
+svg .c-adv,svg .c-nav,svg .c-cua,svg .c-pas,svg .c-ord1,svg .c-ord2{
+
+}
+svg .c-c{
+
+}
+
+
+/*month path related*/
+
+/*month text*/
+svg .mtp{
+}
+svg .mte:hover{
+font-weight: bold;
+font-size: large;
+cursor:pointer;
+}
+svg .mte{
+text-anchor:middle;
+}
+svg .mtsp{
+margin-top:20px;
+}
+
+svg .m-m0{
+fill:#b1b1b1;
+}
+svg .m-m1{
+fill:#b7b7b7;
+}
+svg .m-m2{
+fill:#bfbfbf;
+}
+svg .m-m3{
+fill:#c1c1c1;
+}
+svg .m-m4{
+fill:#c7c7c7;
+}
+svg .m-m5{
+fill:#cfcfcf;
+}
+svg .m-m6{
+fill:#d1d1d1;
+}
+svg .m-m7{
+fill:#d7d7d7;
+}
+svg .m-m8{
+fill:#dfdfdf;
+}
+svg .m-m9{
+fill:#e1e1e1;
+}
+svg .m-m10{
+fill:#e7e7e7;
+}
+svg .m-m11{
+fill:#efefef;
+}
+svg #mci{
+fill:white;
+}
+svg .m-m{/**month background*/
+stroke:black;
+fill:white;
+fill-opacity:0.43;
+}
+
+svg #dci,svg #wci,svg #mci,svg #cci,svg .d-d,svg .w-w,svg .m-m,svg .c-c{}
